@@ -8,7 +8,7 @@ $(document).on('keyup', '#producto', function()
         datatype: 'JSON',
         data:{nombreProducto:nombreProducto},
         success: function(res){
-            console.log(res);
+         
             $('#contenido').html(res);
         }
         
