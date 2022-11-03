@@ -18,7 +18,7 @@ while($databusqueda= mysqli_fetch_array($ejecutar)){
         <td>".$databusqueda['SafetyStockLevel']."</td>
         </tr>
         ";
-        echo json_encode($tbody);
+        echo $tbody;
 }
 }else{
     echo "No se encontraron registros";
